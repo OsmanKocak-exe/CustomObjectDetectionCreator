@@ -35,7 +35,7 @@ CONFIG_PATH = MODEL_PATH+'/'+CUSTOM_MODEL_NAME+'/pipeline.config'
 mainW = ThemedTk(theme="Arc", themebg=True, toplevel=True)
 mainW.title("Create Custom Object Detaction Model")
 mainWFX = 452
-mainWFY = 530
+mainWFY = 535
 mainW.geometry(str(mainWFX)+"x"+str(mainWFY))
 
 
@@ -80,6 +80,7 @@ class tkinterGUI:
         btndetectVideo.place(x=1, y=417, height=37, width=451)
 
         ttk.Label(mainW, text="Step 5", style='Red.TLabelframe.Label', foreground='gray').place(x=205,y=410)
+        ttk.Label(mainW, text="osmankocakank@gmail.com", style='Red.TLabelframe.Label', foreground='gray').place(x=150,y=520)
         btntsettings = ttk.Button(mainW, text="Settings",
                             command=lambda: tkinterGUI.settingsW(mainW))
         btntsettings.place(x=1, y=460, height=30, width=225)
