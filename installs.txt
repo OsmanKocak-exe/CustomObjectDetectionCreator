@@ -1,0 +1,8 @@
+pip install PyQt5
+pip install lxml
+pip install tensorflow-object-detection-api
+pip install pycocotools
+pip install tf_slim
+pip install tensorflow.io
+pip uninstall opencv-python-headless -y 
+pip install tensorboard
