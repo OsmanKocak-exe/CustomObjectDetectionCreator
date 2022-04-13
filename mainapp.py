@@ -50,6 +50,7 @@ getFolderBool = False
 #
 
 class tkinterGUI:
+    
     try:
         ttkstyle = ttk.Style()
         ttkstyle.configure('Red.TLabelframe.Label',
@@ -413,6 +414,7 @@ class systemFunctions:
                 tkm.showinfo('ERROR:',' Cannot found Checkpoint.')
             elif(flename == 'ckpt-0'):
                 tkm.showinfo('ERROR:',' Please Train the model first.')
+                return flename
             else:
                 return flename
         except Exception as e:
