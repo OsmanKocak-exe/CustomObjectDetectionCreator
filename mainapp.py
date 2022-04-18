@@ -256,7 +256,7 @@ class systemFunctions:
                         flename = os.path.basename(srcimgfiles[i])
                         flename = flename.replace(extension, '')
                         filepath = filepath[:(len(filepath)-len(flename))]
-                        print('asdas',flename)
+                        print(flename)
                         shutil.copy(srcimgfiles[i], IMAGE_PATH+'/beckupimages')
                         #filepath = filepath.replace(flename, '')
                         print(createdfolderPathList[x],createdfolderNameList[x])
